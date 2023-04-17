@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400;600&family=Darker+Grotesque:wght@400;500&family=Noto+Sans&family=Poiret+One&family=Poppins:wght@400;600&family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Blinker', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+}
+
+html{
+    background-color: #282626;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+.container h1{
+    text-align: center;
+    width: 100%;
+    font-size: 4em;
+  
+    margin: 0 auto;
+}
+
+.clock {
+
+font-size:6em;
+text-align: center;
+background-color: #282626;
+padding: 40px;
+width: 100%;
+color: rgb(199, 197, 222);
+border-radius: 10px;
+border: 1px solid #484747;
+letter-spacing: 0.2em;
+}
